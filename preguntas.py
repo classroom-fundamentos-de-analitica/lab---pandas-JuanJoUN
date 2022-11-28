@@ -50,7 +50,7 @@ def pregunta_03():
     Name: _c1, dtype: int64
 
     """
-    return freq_c1=tbl0['_c1'].value_counts().sort_index()
+    freq_c1=tbl0['_c1'].value_counts().sort_index()
     return freq_c1
 
 
